@@ -1,0 +1,76 @@
+hr {
+	width: 80%;
+}
+
+tr, td {
+    border: 3px solid black;
+    background-color: rgb(229, 230, 232);
+    margin: 0px;
+    padding: 0px;
+    border-radius: 25px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+input {
+	-webkit-appearance
+}
+
+.scheduleaddition {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.magic {
+	padding-left: 6em;
+	padding-right: 6em;
+}
+
+#container {
+	border: 4px black solid;
+	width: 50%;
+	margin: 0 auto;
+	padding-bottom: 10px;
+	background-color: rgb(116, 166, 247);
+	border-radius: 25px;
+}
+
+#calenderMonthName {
+	text-align: center;
+	font-size: 3em;
+}
+
+#schedule {
+	display: none;
+	border: 4px black solid;
+	background: white;
+	margin: 0 auto;
+	padding-bottom: 50px;
+	width: 50%;
+	border-radius: 25px;
+}
+
+#schedulename {
+	text-align: center;
+	font-size: 3em;
+}
+
+#container td {
+	width: 100px;
+	height: 100px;
+	background-color: white;
+}
+
+#container table {
+	margin: 0 auto;
+	border: 3px solid black;
+	padding: 4px;
+	background-color: rgb(229, 230, 232);
+}
+
+#monthchangingbuttons {
+	text-align: center;
+	margin: 20px;
+}

@@ -1,0 +1,146 @@
+hr {
+	background-color: black;
+	height: 5px;
+	color: black;
+	width: 50%;
+	border: none;
+}
+
+body, html {
+	height: 100%;
+	margin: 0;
+	font-size: 16px;
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	line-height: 1.8em;
+	color: #666;
+}
+
+h2 {
+	margin-top: 0px;
+	text-align: center;
+}
+
+section {
+	text-align: center;
+}
+
+ul, li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4 {
+	position:relative;
+	opacity:0.70;
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+
+.pimg1 {
+	background-image: url("images/whitebackground.jpg");
+	min-height: 100%;
+}
+
+.pimg2 {
+	background-image: url("images/code.png");
+	min-height: 400px;
+}
+
+.pimg3 {
+	background-image: url("images/psychedelic.jpg");
+	min-height: 400px;
+}
+
+.pimg4 {
+	background-image: url("images/airballon.jpg");
+	min-height: 400px;
+}
+
+
+.section-light {
+	background-color: #f4f4f4;
+	color:#666;
+}
+
+.section-dark {
+	background-color:#282e34;
+	color:#ddd;
+}
+
+.ptext {
+	position:absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	font-size: 27px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+
+.pimg2 .ptext .border{
+	color: #ddd;
+}
+
+.text3 {
+	color: rgb(89, 255, 0);
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-size: 2em;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.text2 {
+	font-size: 2em;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;	
+}
+
+@media(max-width:568px){
+	.pimg1, .pimg2, .pimg3, .pimg4{
+		background-attachment: scroll;
+	}
+}
+
+.section-light h2 {
+	padding-top: 20px;
+}
+
+.work, h3 {
+	display: inline;
+}
+
+.projects {
+	font-size: 2em;
+	padding-top: 10px
+}
+
+.contacts:hover {
+	cursor: pointer;
+}
+
+#contact {
+	display: none;
+	padding-left: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 30px;
+	background-color: white;
+}
+
+#portrait {
+	height: 150px;
+	width: 150px;
+	border-radius: 100%;
+}
+
+#number .contacts {
+	float: right;
+}
+
+#contact h3 {
+	display: block;
+}
