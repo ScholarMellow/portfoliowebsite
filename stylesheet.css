@@ -56,7 +56,7 @@ ul, li {
 
 .pimg4 {
 	background-image: url("images/airballon.jpg");
-	min-height: 500px;
+	min-height: 400px;
 }
 
 
@@ -123,30 +123,12 @@ ul, li {
 }
 
 #contact {
+	display: none;
 	padding-left: 15px;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	margin-top: 30px;
 	background-color: white;
-}
-
-#contactpage {
-	display: none;
-}
-
-#topbar {
-	width: 100%;
-}
-
-#buttonfadetoggler {
-	text-align: center;
-	float: center;
-	background: white;
-	width: 10%;
-}
-
-#buttonfadetoggler:hover {
-	cursor: pointer;
 }
 
 #portrait {
@@ -161,9 +143,4 @@ ul, li {
 
 #contact h3 {
 	display: block;
-}
-
-
-.herofull {
-	height: 100%;
 }
